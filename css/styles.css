@@ -1,7 +1,7 @@
 
 body{
     /* background-color: #A0C49D; */
-    background-image: url(../images/pexels-helena-lopes-701026.jpg);
+    background-image: url(../images/pexels-pixabay-259955.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -18,18 +18,34 @@ div{
 }
 .header_brandname{
     border-radius:30px;
-    float:center;
+    /* float:center; */
     width: 200px; 
     background-color: #e1ecc8aa; 
     padding:10px;
 }
 
 .menu-class{
-    border-radius:30px; float:center; width: 45px; background-color: #e1ecc8aa; padding:10px;
+    border-radius:30px; 
+    text-align:center; 
+    width: fit-content; 
+    background-color: #e1ecc8ca; 
+     padding:10px;
 }
 
 .tea-menu-items{
-    border-radius:30px; float:center; width: 150px; background-color: #e1ecc8aa; padding:10px;
+    display: block;
+    border-radius:30px;
+     width: 150px; 
+     background-color: #e1ecc8aa; 
+     padding:10px;
+}
+
+.tea-flavour{
+text-align: left; 
+}
+
+.tea-price{
+text-align: right; 
 }
 
 /* CLASSNAME SELECTORS */
