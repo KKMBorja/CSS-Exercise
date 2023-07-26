@@ -1,9 +1,12 @@
 
 body{
-    background-image: url("../images/pexels-diana-light-7296688.jpg");
+    background-image: url("../images/pexels-skitterphoto-32266.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+
 
 div{
     width: 80%;
@@ -13,18 +16,31 @@ div{
 .header_brandname{
     border-radius:30px;
     width: 200px; 
-    color: aliceblue;
+    color: bisque;
+    text-shadow: 2px 2px 5px #0b0b0b;
     background-color: #2f4f4fe0; 
-    padding:10px;
+    padding:3px;
+}
+
+.brandname-2{
+color: #0cf785;
 }
 
 .menu-class{
     border-radius:30px; 
     text-align:center; 
-    color: #ffffff;
+    color: bisque;
+    text-shadow: 2px 2px 5px #0b0b0b;
     width: fit-content; 
-    background-color: #2f4f4fe0; 
+    background-color: #365c5ce0; 
     padding:10px;
+}
+
+.tea-icon{
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    border-radius: 45%;
 }
 
 .tea-menu-items{
@@ -41,10 +57,15 @@ div{
 
 .tea-flavour, .tea-collection{
 text-align: left; 
+color: bisque;
+text-shadow: 2px 2px 7px #0b0b0b;
 }
 
 .tea-price, .collection-price{
 text-align: right; 
+color: bisque;
+font-weight: bold;
+text-shadow: 3px 3px 5px #0b0b0b;
 }
 
 .top-line{
@@ -53,16 +74,10 @@ width: 50%;
 
 .established{
     font-style: italic;
-    color: darkgreen;
+    font-size: x-small;
+    font-weight: bold;
+    color:#0cf785;
 }
-
-.tea-icon{
-    height: 35px;
-    width: 35px;
-    display: block; 
-border-radius: 45%;
-}
-
 
 .bottom-line{
     margin-top: 25px;
@@ -70,27 +85,28 @@ border-radius: 45%;
 }
 
 .footer{
-    color: #392404;
+    text-align: center;
+    color: bisque;
     border-radius: 20px;
-    background-color: rgba(212, 202, 190, 0.651);
-    width: max-content;
+    width: 100%;
     padding: 2px;
 }
 
 a {
     text-decoration: none;
-    color: #392404;
+    color: #109957;
 }
 
-#revealonclick, #revealonclick2, #revealonclick3, #revealonclick4, #revealonclick5 {
+#revealonclick, #revealonclick2, #revealonclick3, #revealonclick4, #revealonclick5, #revealonclick6, #revealonclick7, #revealonclick8, #revealonclick9{
     display: none;
 }
 
-#revealonclick:target, #revealonclick2:target, #revealonclick3:target, #revealonclick4:target, #revealonclick5:target{
+#revealonclick:target, #revealonclick2:target, #revealonclick3:target, #revealonclick4:target, #revealonclick5:target, #revealonclick6:target, #revealonclick7:target, #revealonclick8:target, #revealonclick9:target{
     /* display: inline; */
     display: inline-block;
     width: 400px;
     float: right;
     border-radius: 25px;
     margin-top: 100px;
-}
+    height: 400px;
+    }
